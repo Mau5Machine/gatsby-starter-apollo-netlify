@@ -2,3 +2,7 @@
   command = "yarn build"
   functions = "functions" #  netlify-lambda reads this
   publish = "public"
+
+[dev]
+  ports = 8001
+  targetPort = 8001

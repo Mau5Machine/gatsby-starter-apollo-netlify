@@ -44,7 +44,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop",
+    "start": "gatsby develop -p 8001",
     "postinstall": "cd functions/graphql && yarn install",
     "format": "prettier --write src/**/*.{js,jsx}",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""

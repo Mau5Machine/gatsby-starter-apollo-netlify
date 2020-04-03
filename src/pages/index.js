@@ -17,6 +17,7 @@ const APOLLO_QUERY = gql`
 
 const IndexPage = props => {
   const { data, loading, error } = useQuery(APOLLO_QUERY)
+
   return (
     <Layout>
       <SEO title="Home" />
